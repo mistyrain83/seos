@@ -11,15 +11,15 @@
 
 void relay_init(void)
 {
-	RELAY1_dir = 0b1;
+    RELAY1_dir = 0b1;
 }
 
 void relay_on(void)
 {
-	RELAY1_dat = 0b0;
+    RELAY1_dat = 0b0;
 }
 
 void relay_off(void)
 {
-	RELAY1_dat = 0b1;
+    RELAY1_dat = 0b1;
 }
